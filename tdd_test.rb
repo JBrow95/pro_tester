@@ -3,8 +3,8 @@ require_relative "intro_test.rb"
 
 class TestIntroTest < Minitest::Test
 
-    def test_assert_that_1_equals_1
-        assert_equal(1, 1)
+    def test_that_
+        assert_equal(100, gettom()["tom"])
     end
 
 end
